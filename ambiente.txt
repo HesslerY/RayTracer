@@ -1,0 +1,25 @@
+#Exportar Z=>FORWARD, Y=>UP , NO BLENDER
+
+#TAMANHO
+t 800 600  
+
+#LUZ - POSICAO/COR
+#USAR Z NEGATIVO
+#l 2 2 -3/0.2 0.2 0.2
+l 4 2 -3/1 1 1
+l 4 2 3/0.2 0.2 0.2
+l -5 2 3/0.2 0.2 0.2
+l -5 2 -3/1 1 1
+#l -2 2 3/0.2 0.2 0.2
+
+#l -12 3 15/0.2 0.2 0.2
+
+#AMBIENTE - COR - INTENSIDADE LUMINOSA
+a 200 200 200/0 0 0
+
+#CAMERA - POSICAO
+c 0 0 0
+
+#ARQUIVO COM OBJETOS [ARQUIVO OBJETO/ARQUIVO MATERIAL]
+#o plano.obj plano.mtl
+o primitivas.txt primitivas.txt
